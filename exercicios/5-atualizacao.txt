@@ -1,0 +1,18 @@
+1.	Atualize os registros criados no exercício anterior, com os filtros abaixo (não se esqueça de buscar pelo _id):
+Titulo = Titulo Uava
+Descrição = Java
+Concluída = verdadeiro
+
+Titulo = Titulo OSharp
+Descrição = CSharp
+Concluída = falso
+
+Titulo = Titulo Pirebase
+Descrição = Firebase
+
+Titulo = Titulo Ycrosoft
+Descrição = Microsoft
+
+Titulo = Titulo Roracle
+Descrição = Oracle
+Data de Inclusão = data de hoje
