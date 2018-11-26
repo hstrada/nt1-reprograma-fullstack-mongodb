@@ -1,1 +1,9 @@
-1. Traga somente os registros aonde o valor da data seja superior a 11/01/2018 e inferior a 13/01/2018.
+1. Traga somente os registros aonde os valores das datas sejam superioriores a 11/01/2018 e inferior a 13/01/2018.
+
+2. Traga somente os registros aonde os valores das datas sejam superioriores a 09/01/2018.
+
+3. Traga somente os registros aonde os valores das datas sejam superioriores a 05/01/2018.
+
+4. Traga somente os registros aonde os valores das datas sejam inferiores a 09/01/2018.
+
+5. Traga somente os registros aonde os valores das datas sejam inferiores a 08/01/2018.
