@@ -1,0 +1,108 @@
+﻿https://docs.mongodb.com/manual/core/data-model-design/
+https://docs.mongodb.com/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/
+
+. Criar um novo banco de dados
+
+. Criar coleção de postits (postits)
+
+. Criar coleção de usuários (users)
+
+-- dica
+criar coleção mongodb
+create collection mongodb
+
+-- referência
+https://docs.mongodb.com/manual/reference/method/db.createCollection/
+
+-- solução
+Colocar o banco de dados em uso.
+
+==============================================
+
+. Inserir 2 novos registros de postits
+title : Titulo A
+description : Descricao A
+
+title : Titulo B
+description : Descricao B
+
+-- dica
+inserir dados mongodb
+
+-- referência
+https://docs.mongodb.com/manual/reference/method/db.collection.insert/
+
+==============================================
+
+. Inserir 2 novos registros de usuários.
+email : admin@email.com
+password : 123456
+
+email : comum@email.com
+password : 123456
+
+==============================================
+
+. Selecione o último documento inserido
+
+-- dica
+ordenação mongodb
+
+==============================================
+
+. Atualize o registro aonde o email seja 'admin@email.com' para que o nome dele seja igual a "Administrador"
+
+-- dica
+inserir campo mongodb
+
+==============================================
+
+. Atualize o registro aonde o email seja 'comum@email.com' para que possa receber uma lista de postits
+
+-- dica
+data type mongodb
+inserir campo mongodb
+
+. Selecione todos os registros para verificar as informações inseridas
+
+==============================================
+
+. Exclua somente o campo aonde inserimos o postits, para validarmos o próximo exercício
+
+-- dica
+excluir campo mongodb
+
+. Selecione todos os registros para verificar as informações removidas
+
+==============================================
+
+. Atualize todos os registros para que elas recebam também a lista de postits
+
+==============================================
+
+. Atualize a lista de postits para que o usuário Admin tenha o postits com Título A, 
+e para o comum, com o Título B
+
+-- Lembrete
+Buscar o id de um postit e incluir um item para o usuário
+
+==============================================
+
+. Traga todos os usuários e seus respectivos postits
+
+-- referência
+https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/
+
+==============================================
+
+. Remova o postit de Título B do usuário comum@email.com
+
+==============================================
+
+. Atualize o usuário Administrador para que ele tenha dois endereços
+
+Adicionar 2 novos endereços
+
+==============================================
+
+. Traga somente os usuários cujo endereço tenha como estado, o estado de SP.
